@@ -21,7 +21,7 @@ $ano = date('Y');
             <a href="sobre.php">Sobre</a>
         </nav>
         <h2>O que vamos estudar?</h2>
-        <p>Esta página combina elementos HTML com blocos de PHP.</p>
+        <p>Esta página combina elementos HTML com blocos de PHP, no projeto.</p>
         <ul>
             <?php foreach ($assuntos as $assunto) { ?>
                 <li><?php echo $assunto; ?></li>
